@@ -21,8 +21,8 @@ ArduFocser is an open-source firmware for Arduino Nano-based motorized focusers,
 |------------------|------------------|----------------------------|
 | D2               | DiagPin          | Diagnostic input           |
 | D3               | DirPin           | Stepper direction          |
-| D4               | RXPin            | Serial RX (optional)       |
-| D5               | TXPin            | Serial TX (optional)       |
+| D4               | RXPin            | TMC RX                     |
+| D5               | TXPin            | TMC TX                     |
 | D6               | MS2Pin           | Microstep select           |
 | D7               | MS1Pin           | Microstep select           |
 | D8               | EnablePin        | Stepper enable             |
@@ -125,4 +125,18 @@ The ASCOM driver communicates with the firmware using the serial protocol descri
 
 1. Install [PlatformIO](https://platformio.org/) in VS Code.
 2. Connect your Arduino Nano via USB.
-3. Build and upload the firmware using PlatformIO's interface or CLI:
+3. Build and upload the firmware using PlatformIO's interface: pio run --target upload
+---
+
+## License
+
+This project is open-source and provided under the MIT License.
+
+---
+
+## Credits
+
+- Firmware by Connor Hutcheson  
+- Based on open-source community contributions
+
+For more details, see the source code and comments in `src/main.cpp`.
