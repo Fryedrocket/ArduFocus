@@ -98,7 +98,7 @@ Communication is performed over the Arduino's serial port (default 115200 baud).
 ## ASCOM Driver Integration
 
 1. Connect Arduino Nano to your PC via USB.
-2. Install ASCOM Platform and the appropriate ASCOM driver for ArduFocser.
+2. Install ASCOM Platform and the appropriate ASCOM driver for ArduFocser. (It is recommended to run the setup exe with administrator priveledges so that the COM client can be registered properly)
 3. Configure the COM port in the ASCOM driver settings to match your Arduino Nano.
 4. Use your astronomy software (e.g., NINA, SGP, APT) to connect to the focuser via ASCOM.
 
