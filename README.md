@@ -1,6 +1,6 @@
-# ArduFocser
+# ArduFocuser
 
-ArduFocser is an open-source firmware for Arduino Nano-based motorized focusers, designed for telescope automation. It provides precise control of a stepper motor via serial commands and supports integration with ASCOM drivers for remote operation. The firmware is highly configurable and supports features such as EEPROM settings storage, temperature monitoring, and LED status indication.
+ArduFocuser is an open-source firmware for Arduino Nano-based motorized focusers, designed for telescope automation. It provides precise control of a stepper motor via serial commands and supports integration with ASCOM drivers for remote operation. The firmware is highly configurable and supports features such as EEPROM settings storage, temperature monitoring, and LED status indication.
 
 ---
 
